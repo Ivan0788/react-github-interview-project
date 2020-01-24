@@ -1,0 +1,22 @@
+.searcher-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100px;
+}
+
+#searcher-main {
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding: 10px;
+    height: 15px;
+    margin: auto 0;
+}
+
+.searcher-button {
+    height: 35px;
+    width: 200px;
+    margin: auto;
+    border-radius: 19px;
+}

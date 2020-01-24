@@ -1,1 +1,6 @@
-@import './partials/searchbar';
+@import './partials/searcher';
+@import './githubsearch.scss';
+
+body {
+    margin: unset;
+}

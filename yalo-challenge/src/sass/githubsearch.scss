@@ -1,0 +1,41 @@
+.github-searcher-container {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.github-searcher-header {
+    background-color: #24292e;
+    color: white;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+
+    .title {
+        font-weight: 700;
+        font-size: 3em;
+        margin: auto 0;
+    }
+
+    .bookmark-button {
+        height: 50px;
+        width: 50px;
+        margin: auto;
+    }
+}
+
+.github-searcher-body {
+    width: 80%;
+    margin: 15px 10%;
+
+    .repo-list {
+        overflow-y: scroll;
+        width: 100%;
+        height: calc(100% - 100px);
+    }
+}
+
+.github-searcher-footer {
+    background-color: #24292e;
+}

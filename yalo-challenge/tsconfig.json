@@ -18,6 +18,7 @@
     "module": "esnext",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "strict": false,
     "noEmit": true
   },
   "exclude": [
